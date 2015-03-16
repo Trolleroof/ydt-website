@@ -29,11 +29,9 @@
 .carousel-inner {
   height: 300px;
 }
-@media screen and (min-width: 768px){
 .carousel-caption {
   top: 166px;
   }
-}
 .carousel-control.left ,.carousel-control.right {
   background: none;
 }
@@ -205,8 +203,8 @@ p{
     color: white !important;
 }
 section#menu-slider {
-    background: rgba(0, 0, 0, 0.19);
-    padding-bottom: 53px;
+  background: rgba(0, 0, 0, 0.19);
+  padding-bottom: 84px;
 }
 a{
     outline: 0;
@@ -451,6 +449,17 @@ p.sub-title-head.text-center.white {
     line-height: 1.33;
     border-radius: 2px;
 }
+@media (max-width: 330px){
+.input-group-lg>.form-control, .input-group-lg>.input-group-addon, .input-group-lg>.input-group-btn>.btn {
+  width: 100%;
+}
+.button_generic {
+  background-color: transparent;
+  /* border: 1px solid #FFFFFF; */
+  color: #EEF7FF;
+  font-size: 12px;
+}
+}
 .slider .special_font{
     font-size: 40px;
     line-height: 50px;
@@ -473,7 +482,7 @@ h2.title {
   line-height: 40px;
 }
 /*-------------------------------------------------------------------------------------------------------------------------------*/
-/*******Class ******/
+/******* Class ******/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
 
