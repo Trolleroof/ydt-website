@@ -18,6 +18,7 @@
 /* ---------------------------------------------------------------------- */
 .testimonial{
   background: url(../img/testimonial.jpg) center center/cover no-repeat fixed;
+  padding: 100px 0;
 }
 .item-image{
   width: 150px;
