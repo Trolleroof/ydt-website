@@ -258,9 +258,9 @@ h4 {
     padding: 13px 26px;
 }
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
-background-color: rgba(62, 87, 84, 0.69);
-border: 1px solid #8DBBC8;
-color: #ffffff;
+  background-color: rgba(47, 101, 139, 1);
+  border: 1px solid #8DBBC8;
+  color: #ffffff;
 }
 
 
@@ -466,10 +466,11 @@ p.sub-title-head.text-center.white {
     background: rgba(37, 111, 144, 0.36);
 }
 h2.title {
-    color: white;
-    font-size: 31px;
-    font-weight: bold;
-    line-height: 37px;
+  font-family: "Lato";
+  color: white;
+  font-size: 35px;
+  font-weight: 100;
+  line-height: 40px;
 }
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /*******Class ******/
