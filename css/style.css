@@ -17,18 +17,46 @@
 /* ---------------------------------------------------------------------- */
 /*  Footer
 /* ---------------------------------------------------------------------- */
+span.gold {
+  border: 1px solid;
+  padding: 4px;
+  margin: 0px 5px 10px 0;
+}
+span.gold:hover {
+  background: rgb(32, 37, 36);
+  cursor: pointer;
+  transition:.3s;
+}
 
-
+h4.footer-tags {
+  margin-bottom: 15px;
+}
+.footer-bottom {
+  background: rgb(1, 12, 11);
+  height: 50px;
+  border-top: 1px solid rgb(38, 38, 38);
+  padding-top: 12px;
+  color: rgb(194, 194, 194);
+}
+.footer-bottom p{
+  font-size: 14px;
+}
+.gold {
+  color: rgb(194, 194, 194);
+}
 section.footer {
   background: rgb(1, 12, 11);
   padding: 36px 0;
 }
 h4.footer-title {
-  color: #B49489;
+  color: #FFFFFF;
+  font-weight: lighter;
+  font-size: 24px;
 }
 ul.links-footer {
   list-style: none;
   margin-left: -37px;
+  cursor: pointer;
   /* margin: 0; */
 }
 /* ---------------------------------------------------------------------- */
@@ -45,7 +73,7 @@ ul.links-footer {
   border-radius: 50%;
 }
 .carousel-inner {
-  height: 300px;
+  height: 315px;
 }
 .carousel-caption {
   top: 166px;
@@ -325,8 +353,8 @@ h4 {
 }
 
 .navbar.navbar-default {
-height: 80px;
-padding: 5px 0;
+  height: 80px;
+  padding: 5px 0;
 }
 
 header .navbar-right{
@@ -334,7 +362,7 @@ header .navbar-right{
 }
 header .navbar-brand {
     padding: 22px 1px 15px 20px;
-    font-size: 30px;
+    font-size: 29px;
     color:white !important;
 }
 header .navbar {
@@ -843,11 +871,11 @@ div#contents {
   -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
 }
 
- .form-btn:hover {
-  background: rgba(7, 46, 46, 0.42);
-  color: white;
+.form-btn:hover {
+  background: transparent;
+  color: black;
+  transition: .3s;
 }
-
   .form-btn:active{
     opacity: 0.9;
   }
