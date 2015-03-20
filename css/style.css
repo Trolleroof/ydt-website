@@ -751,12 +751,12 @@ span.right-text {
 span.left-text {
   float: left;
   background: rgb(0, 150, 145);
-  padding: 10px 45px;
+  padding: 10px 39px;
   width: 47%;
 }
 div#contents {
   margin: 0 auto;
-  width: 65%;
+  width: 55%;
 }
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* -----Contact ----- */
