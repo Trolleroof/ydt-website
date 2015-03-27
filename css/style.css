@@ -53,17 +53,17 @@ h2{
     line-height: 26px;
 }
 h4 {
-    font-size: 26px;
-    color: #46627E;
-    font-family: 'Roboto Slab', serif;
-    /* font-weight: bold; */
+  font-size: 26px;
+  color: #6d868f;
+  font-family: 'Lato', serif;
+  /* font-weight: bold; */
 }
 .clear{
     clear: both;
 }
-.generic{
-    padding-top: 50px;
-    padding-bottom: 50px;
+.generic {
+  padding-top: 120px;
+  padding-bottom: 50px;
 }
 .button_generic {
     background-color: transparent;
@@ -144,7 +144,7 @@ header .navbar-brand {
 header .navbar {
   background-color: rgba(0, 0, 0, 0.8);
   border-color: #FFFFFF;
-  border-bottom: 3px solid #2F8190;
+  border-bottom: 3px solid #8D8D8D;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
   filter: alpha(opacity=85);
   -moz-opacity: 0.85;
@@ -176,7 +176,7 @@ header .navbar-toggle{
     margin: 15px;
 }
 .content_slider {
-  margin: 35px 0;
+  margin: 80px 0;
 }
 li {
   font-size: 15px;
@@ -198,15 +198,17 @@ h2.sub-title-head.text-center.white {
 .top-info{
     margin-top: 18px;
 }
-
+button{
+  border-radius: 7px;
+}
 button.info2 , button.info:hover {
   background: transparent;
   padding: 12px 42px;
   color: white;
   margin-bottom: 10px;
 }
-button.info, button.info2:hover  {
-  background: rgba(47, 101, 139, 1);
+button.info, button.info2:hover {
+  background: transparent;
   padding: 12px 42px;
   color: white;
   margin-bottom: 10px;
@@ -322,14 +324,14 @@ p.sub-title {
 }
 
 .content-block .button-main {
-      border: 1px solid rgba(47, 116, 116, 1);
-      /* background: rgba(47, 116, 116, 1); */
-      padding: 20px 22px;
-      line-height: 10px;
-      color: rgb(54, 105, 105);
-      text-transform: capitalize;
-      float: left;
-      cursor: pointer;
+  background: transparent;
+  padding: 12px 42px;
+  color: #313131;
+  margin-bottom: 10px;
+  float: left;
+  cursor: pointer;
+  border-radius: 7px;
+  border: 1px solid #313131;
 }
     .button-main.bg-fio-point:hover {
     background: none;
@@ -656,6 +658,12 @@ span.gold {
   padding: 4px;
   margin: 0px 5px 10px 0;
 }
+a.navbar-logobrand {
+  font-size: 38px;
+  color: white;
+  font-family: "Lato";
+  font-weight: lighter;
+}
 span.gold:hover {
   background: rgb(32, 37, 36);
   cursor: pointer;
@@ -698,7 +706,7 @@ ul.links-footer {
 /* ---------------------------------------------------------------------- */
 .testimonial{
   background: url(../img/testimonial.jpg) center center/cover no-repeat fixed;
-  padding: 100px 0;
+  padding: 120px 0;
 }
 .item-image{
   width: 150px;
@@ -836,7 +844,7 @@ a.btn-medium.empty {
 
 .features {
       background-color: rgba(231, 229, 229, 0.34);
-      padding: 100px 0;
+      padding: 120px 0;
 }
 .column-section{
     margin-top: 40px;
@@ -848,13 +856,14 @@ h4.item-title.text-center {
     text-align: justify;
 }
 p.sub-title {
-    font-family: "Roboto";
-    color: #d0d0d0;
-    margin-top: 60px;
-    font-size: 24px;
-    font-weight: 300;
-    text-align: center;
-    text-transform: uppercase;
+  font-family: "Roboto";
+  color: #d0d0d0 !important;
+  margin-top: 40px;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
 .icon {
   width: 150px;
@@ -876,7 +885,8 @@ h2.title-start {
     text-align: center;
     text-transform: uppercase;
 }
-p{
-    font-family: 'Dosis', sans-serif;
-    font-size: 18px;
+p {
+  font-family: 'Dosis', sans-serif;
+  font-size: 18px;
+  color: #313131 !important;
 }
