@@ -189,8 +189,6 @@ h1.title-head.text-center.white {
   font-weight: 100;
   text-align: center;
   text-transform: uppercase;
-  border: 1px solid rgb(123, 235, 255);
-  background: rgba(37, 111, 144, 0.36);
   padding: 14px;
 }
 h2.sub-title-head.text-center.white {
@@ -214,7 +212,6 @@ button.info, button.info2:hover  {
   margin-bottom: 10px;
 }
 p.sub-title-head.text-center.white {
-  border: 1px solid rgb(123, 235, 255);
   padding: 14px;
   background: rgba(37, 111, 144, 0.36);
   margin: 20px 0;
@@ -293,7 +290,6 @@ p.sub-title-head.text-center.white {
 .content_form {
     margin: 57px 0;
     padding: 19px 57px;
-    border: 1px solid rgb(123, 235, 255);
     background: rgba(37, 111, 144, 0.36);
 }
 h2.title {
@@ -655,7 +651,7 @@ div#contents {
   .form-btn:active{
     opacity: 0.9;
   }
-  /* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
 /*  Footer
 /* ---------------------------------------------------------------------- */
 span.gold {
