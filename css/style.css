@@ -674,11 +674,11 @@ h4.footer-tags {
   margin-bottom: 15px;
 }
 .footer-bottom {
-  background: rgb(1, 12, 11);
+  background: rgba(0, 0, 0, 1);
   height: 50px;
   border-top: 1px solid rgb(38, 38, 38);
   padding-top: 12px;
-  color: rgb(194, 194, 194);
+  /* color: white !important; */
 }
 .footer-bottom p{
   font-size: 14px;
@@ -687,7 +687,7 @@ h4.footer-tags {
   color: rgb(194, 194, 194);
 }
 section.footer {
-  background: rgb(1, 12, 11);
+  background: #272E30;
   padding: 36px 0;
 }
 h4.footer-title {
