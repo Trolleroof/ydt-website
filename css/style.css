@@ -213,7 +213,6 @@ button.info, button.info2:hover  {
 }
 p.sub-title-head.text-center.white {
   padding: 14px;
-  background: rgba(37, 111, 144, 0.36);
   margin: 12px 0 25px;
 }
 /*slider*/
@@ -290,7 +289,6 @@ p.sub-title-head.text-center.white {
 .content_form {
     margin: 57px 0;
     padding: 19px 57px;
-    background: rgba(37, 111, 144, 0.36);
 }
 h2.title {
   font-family: "Lato";
@@ -361,20 +359,19 @@ p.sub-title {
     -o-transition: all 0.3s ease-in;
     -ms-transition: all 0.3s ease-in;
 }
-.layer-block{
+.layer-block {
   opacity: 1;
   color: white;
-  background: rgb(38, 69, 68);
+  background: rgb(125, 147, 155);
   height: 45px;
   font-size: 20px;
   text-align: center;
   padding: 7px 0;
 }
-
 .layer-block:hover {
   opacity: 1;
   color: white;
-  background: rgb(88, 210, 177);
+  background: rgb(109, 134, 143);
   height: 45px;
   font-size: 20px;
   text-align: center;
@@ -436,7 +433,7 @@ p.sub-title {
 }
 
 .like-wrap .fa {
-  color: rgb(0, 150, 145);
+  color: rgb(109, 134, 143);
   font-size: 16px;
   line-height: 32px;
   position: relative;
@@ -511,13 +508,13 @@ p.sub-title {
 }
 span.right-text {
   float: right;
-  background: rgb(38, 69, 68);
+  background: rgba(109, 134, 143, 0.88);
   padding: 10px 45px;
   width: 53%;
 }
 span.left-text {
   float: left;
-  background: rgb(0, 150, 145);
+  background: #6D868F;
   padding: 10px 39px;
   width: 47%;
 }
@@ -860,17 +857,16 @@ p.sub-title {
     text-transform: uppercase;
 }
 .icon {
-      width: 150px;
-      height: 150px;
-      color: white;
-      background: rgb(85, 150, 140);
-      padding: 42px;
-      border-radius: 50%;
-      margin: 0 auto;
-      border: 10px solid rgba(255, 255, 255, 0.39);
-      cursor: pointer;
+  width: 150px;
+  height: 150px;
+  color: white;
+  background: #6D868F;
+  padding: 42px;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 10px solid rgba(255, 255, 255, 0.39);
+  cursor: pointer;
 }
-
 
 h2.title-start {
     font-family: "Lato";
