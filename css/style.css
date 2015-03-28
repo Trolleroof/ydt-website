@@ -786,6 +786,11 @@ a.btn-medium.empty {
   -moz-box-sizing: border-box;
 
 }
+a.btn-medium.empty:hover {
+    background: rgb(246, 246, 246);
+  transition: .3s;
+
+}
 .head .price span {
   font: 30px 'Open Sans', Arial, sans-serif;
   font-weight: 300;
