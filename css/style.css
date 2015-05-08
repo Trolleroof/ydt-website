@@ -220,7 +220,7 @@ button.info2 , button.info:hover {
   margin-bottom: 10px;
 }
 button.info, button.info2:hover {
-  background: transparent;
+  background: rgba(109, 134, 143, 1);
   padding: 12px 42px;
   color: white;
   margin-bottom: 10px;
@@ -910,7 +910,8 @@ p.sub-title {
   color: white;
   outline: none;
   transition:.3s;
-  -webkit-transform: rotate(-180deg);
+  border: 10px solid rgba(255, 255, 255, 0.23);
+  /* -webkit-transform: rotate(-180deg); */
 
 /* Firefox */
 -moz-transform: rotate(-180deg);
