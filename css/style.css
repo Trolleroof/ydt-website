@@ -198,7 +198,7 @@ h1.title-head.text-center.white {
   font-family: "Lato";
   color: #717679;
   font-size: 95px;
-  font-weight: 100;
+  font-weight: 300;
   text-align: center;
   text-transform: uppercase;
   padding: 14px;
@@ -938,3 +938,29 @@ p {
   font-size: 18px;
   color: #313131 !important;
 }
+
+.bold{
+  font-weight: 400;
+}
+
+
+.features {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container-team {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .item-sections {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
