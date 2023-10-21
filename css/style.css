@@ -957,7 +957,7 @@ p {
     .item-sections {
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
+      justify-content: space-between;
     }
 
 .form-container{
@@ -967,4 +967,9 @@ p {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   
+}
+
+.section-divider {
+  border: 2px solid #333; /* Set the border style and color */
+  margin: 20px 0; /* Add some margin for spacing */
 }
