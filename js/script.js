@@ -119,6 +119,8 @@ function debouncer( func , timeout ) {
 
 
 });
+app.use(express.static("public"));
+
 
 
  
